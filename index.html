@@ -179,6 +179,8 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>TaskManagementDraggableTemplate</li>
+
 <li>TestTask</li>
 
 <li>Todo</li>
@@ -9606,7 +9608,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20201208154614068" list="$:/ControlPanel TestTask Todo" modified="20201208160232109" title="$:/StoryList">
+<div created="20201208154614068" list="TaskManagementDraggableTemplate TestTask Todo" modified="20201208160232109" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9782,17 +9784,18 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20201208155824845" modified="20201208160224798" tags="task done" title="TestTask">
+<div created="20201208161444007" modified="20201208161502678" tags="" title="TaskManagementDraggableTemplate">
+<pre>&lt;$checkbox tag=&quot;done&quot;&gt; &lt;$link/&gt;&lt;/$checkbox&gt;</pre>
+</div>
+<div created="20201208155824845" modified="20201208161145047" tags="task" title="TestTask">
 <pre></pre>
 </div>
-<div created="20201208155803815" modified="20201208160447342" tags="" title="Todo">
+<div created="20201208155803815" modified="20201208161134808" tags="" title="Todo">
 <pre>! Outstanding tasks
 
 //Drag the tasks to re-order them//
 
 &lt;&lt;list-tagged-draggable tag:&quot;task&quot; subFilter:&quot;!has[draft.of]!tag[done]&quot; itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
-
-&lt;$checkbox tag=&quot;done&quot;&gt; &lt;$link/&gt;&lt;/$checkbox&gt;
 
 ! Completed tasks
 
